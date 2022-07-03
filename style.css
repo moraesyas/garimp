@@ -1,0 +1,292 @@
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+    font-family: getaway;
+    letter-spacing: 1px;
+    position: relative;
+    margin-left: -100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 60px;
+    font-family: -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 8vh;
+    font-weight: 400;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    background: transparent;
+}
+
+.nav-list li {
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+
+.nav-list1 {
+    display: flex;
+}
+
+.nav-list1 img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+body {
+    position: relative;
+    width: 1533px;
+    height: 1037px;
+
+    background: linear-gradient(180deg, #F22028 7.29%, #ED1C24 50%, #CC0008 100%);
+
+}
+
+.dobra img {
+
+    left: 317px;
+    top: 250px;
+    margin-top: -100px;
+    margin-left: -8px;
+
+
+}
+
+
+
+
+.fundo img {
+    position: absolute;
+    display: flex;
+    top: 131px;
+    left: 305px;
+
+}
+
+.phone img {
+    top: 168px;
+    left: 442px;
+    display: flex;
+    position: absolute;
+
+}
+
+.manequimdois img {
+    top: 153px;
+    left: 519px;
+    position: absolute;
+
+}
+
+
+.manequim img {
+    top: 153px;
+    left: 519px;
+    position: absolute;
+    width: 1078px;
+    height: 0px;
+    left: 201px;
+    top: 512px;
+    border: 1px solid #FFFFFF;
+}
+
+.produtos h3 {
+    position: absolute;
+    width: 184px;
+    height: 26px;
+    left: 255px;
+    top: 486px;
+    margin: 5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF
+}
+
+
+
+
+.produtoum img {
+    position: absolute;
+    width: 200px;
+    height: 187px;
+    left: 528px;
+    top: 584px;
+
+}
+
+
+.produtoum {
+    transition: all 0.3s;
+}
+
+
+
+.produtoum:hover {
+
+    margin-top: -20px;
+
+}
+
+.produtodois img {
+    position: absolute;
+    width: 200px;
+    height: 187px;
+    left: 719px;
+    top: 584px;
+}
+
+.produtotres img {
+    position: absolute;
+    width: 200px;
+    height: 187px;
+    left: 919px;
+    top: 584px;
+}
+
+.produtoquatro img {
+    position: absolute;
+    width: 200px;
+    height: 187px;
+    left: 1148px;
+    top: 583px;
+}
+
+.produtocinco img {
+    position: absolute;
+    width: 200px;
+    height: 187px;
+    left: 200px;
+    top: 584px;
+}
+
+.produtoseis img {
+    position: absolute;
+    width: 200px;
+    height: 187px;
+    left: 370px;
+    top: 584px;
+}
+
+
+footer {
+    background-color: #171616;
+    margin-top: 100px;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #949292;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    position: absolute;
+    width: 1539px;
+    transform: translate(-1%, 170%);
+}
+
+
+
+.logo-footer {
+    margin-bottom: 40px;
+    font-family: getaway;
+    color: #fff;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+
+.part1 {
+    margin-top: 25px;
+    margin-bottom: 140px;
+}
+
+.part1,
+.part2 {
+    color: #949292;
+    display: flex;
+    flex-direction: column;
+}
+
+.part1 h3,
+.part2 h3,
+.part3 h3 {
+    color: #fff;
+}
+
+.part1 a,
+.part2 a {
+    color: #949292;
+    padding: 10px;
+}
+
+.part2,
+.part3 {
+    margin-top: 30px;
+
+}
+
+.part3 {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+}
+
+.part3 p {
+    padding: 10px;
+}
+
+.part4 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.part4 img {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.part5 {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    background-color: #0B0B0B;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    width: 1539px;
+    transform: translate(-1%, 4280%);
+
+}
